@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "Donald Trump Image Changer",
+    "short_name": "TrumpChange",
+    "description": "This extension changes photos of Donald Trump into photos of something better.",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
